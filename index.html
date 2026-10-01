@@ -147,6 +147,18 @@
     max-width:560px; margin:18px auto 0; font-size:1.05rem; color:var(--ink-soft);
     text-shadow: 0 0 24px rgba(238,244,255,1), 0 0 12px rgba(255,255,255,0.9);
   }
+  .ext-promo{
+    display:flex; gap:12px; align-items:flex-start; text-align:left;
+    max-width:560px; margin:26px auto 0; padding:14px 18px;
+    background:rgba(255,255,255,0.9); border:1px solid var(--line);
+    border-radius:16px; box-shadow:var(--shadow);
+    text-decoration:none; color:var(--ink); font-size:0.95rem;
+    transition:transform .15s ease;
+  }
+  .ext-promo:hover{transform:translateY(-2px);}
+  .ext-promo-icon{font-size:1.5rem; line-height:1.2; flex-shrink:0;}
+  .ext-promo strong{color:var(--galaxy-deeper);}
+  .ext-promo-cta{display:block; margin-top:6px; font-weight:700; color:var(--galaxy-deep);}
   .hero .scrolldown{
     margin-top:34px; display:inline-flex; flex-direction:column; align-items:center; gap:6px;
     color:var(--ink-soft); font-size:0.82rem; font-weight:600;
@@ -356,12 +368,23 @@
       <li><a href="#p4"><span class="n">4</span>Character & NPC</a></li>
       <li><a href="#p5"><span class="n">5</span>Các mục khác</a></li>
     </ul>
+    <div class="toc-group-label">Tiện ích thêm</div>
+    <ul class="toc-list">
+      <li><a href="https://meoc90169-ship-it.github.io/Studio-lab-guide/"><span class="n">🧪</span>Studio.lab — hướng dẫn cài đặt ↗</a></li>
+    </ul>
   </div>
 
   <section class="hero">
     <span class="eyebrow">🌌 Hướng dẫn cơ bản</span>
     <h1>Google AI Studio</h1>
     <p class="sub">Không cần biết code, không cần rành công nghệ. Đi từng bước một — từ mở Playground cho tới viết một prompt roleplay hoàn chỉnh.</p>
+    <a class="ext-promo" href="https://meoc90169-ship-it.github.io/Studio-lab-guide/">
+      <span class="ext-promo-icon">🧪</span>
+      <span class="ext-promo-text">
+        <strong>Mới: Studio.lab</strong>, tiện ích mở rộng giúp AI Studio không bị ngắt giữa chừng và hiện <em>Prohibited content</em>, chat dài bớt lag, kèm lưu nháp, đếm từ, xuất cuộc trò chuyện.
+        <span class="ext-promo-cta">Xem hướng dẫn cài đặt Studio.lab →</span>
+      </span>
+    </a>
     <a href="#glossary" class="scrolldown"><span class="arrow">↓</span> Bắt đầu thôi</a>
   </section>
 
